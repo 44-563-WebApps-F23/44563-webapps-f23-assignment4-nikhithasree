@@ -16,30 +16,23 @@
     color: lavenderblush;
   }
   
-  .NORA {
+  .KROGSTAD {
     color:khaki;
   }
   
-  .PORTER {
+  .MRSLINDE{
     color:darkmagenta;
   }
   
- .HELMER {
-    color:brown;
-  }
-  .NORA:hover {
+ 
+.KROGSTAD:hover {
     text-shadow:2px 2px 4px #FF5733; 
     border: 2px solid #FF5733;
     cursor: pointer;  
 }
-.PORTER:hover {
+.MRSLINDE:hover {
     text-shadow:2px 2px 4px chartreuse; 
     border:2px solid rgb(128, 204, 240);
-    cursor: pointer; 
-}
-.HELMER:hover {
-    text-shadow:2px 2px 4px fuchsia; 
-    border:2px solid lawngreen;
     cursor: pointer; 
 }
 
@@ -60,9 +53,9 @@ th, td {
 }
 
 th {
-    background-color: #cae67e;   
+    background-color: #e6df7e;   
 }
 
 tr:nth-child(even) {
-    background-color:darkorchid;
+    background-color:rgb(204, 50, 50);
   }
