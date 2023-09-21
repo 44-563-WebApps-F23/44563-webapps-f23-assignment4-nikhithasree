@@ -1,0 +1,68 @@
+.speech {
+    font-family:blue;
+    font-size:14px;
+    color: black;
+  }
+
+  .direction {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: black;
+    background-color:lightcoral;
+  }
+  
+  .direction:hover {
+    background-color:fuchsia;
+    color: lavenderblush;
+  }
+  
+  .NORA {
+    color:khaki;
+  }
+  
+  .PORTER {
+    color:darkmagenta;
+  }
+  
+ .HELMER {
+    color:brown;
+  }
+  .NORA:hover {
+    text-shadow:2px 2px 4px #FF5733; 
+    border: 2px solid #FF5733;
+    cursor: pointer;  
+}
+.PORTER:hover {
+    text-shadow:2px 2px 4px chartreuse; 
+    border:2px solid rgb(128, 204, 240);
+    cursor: pointer; 
+}
+.HELMER:hover {
+    text-shadow:2px 2px 4px fuchsia; 
+    border:2px solid lawngreen;
+    cursor: pointer; 
+}
+
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+th, td {
+    border: 3px solid #10e71e;
+    padding: 15px;
+    text-align: center;
+    color:burlywood;
+}
+
+th {
+    background-color: #cae67e;   
+}
+
+tr:nth-child(even) {
+    background-color:darkorchid;
+  }
